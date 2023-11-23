@@ -1,0 +1,29 @@
+{
+    "$id": "https://github.com/ASCS-eV/credentials/schemas/membership-status-schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "AscsMembershipAttributes",
+    "description": "asc(s e.V. membership status using JsonSchema",
+    "type": "object",
+    "properties": {
+        "credentialSubject": {
+            "type": "object",
+            "properties": {
+                "membershipStatus": {
+                    "type": "object",
+                    "properties": {
+                        "ascs": {
+                            "type": "boolean"
+                        },
+                        "envited": {
+                            "type": "boolean"
+                        }
+                    },
+                    "required": [
+                        "ascs",
+                        "envited"
+                    ]
+                }
+            }
+        }
+    }
+}
