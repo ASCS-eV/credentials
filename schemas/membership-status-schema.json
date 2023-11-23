@@ -9,11 +9,12 @@
             "id": "@id",
             "type": "@type",
             "name": "http://schema.org/name",
-            "membershipStatus.ascs": "http://schema.org/Boolean",
-            "membershipStatus.envited": "http://schema.org/Boolean",
-            "ascsMember.vatID": "http://schema.org/vatID",
-            "ascsMember.name": "http://schema.org/legalName",
-            "ascsMember.address": "http://schema.org/PostalAddress"
+            "membershipStatus": "@nest",
+            "ascs": "http://schema.org/Boolean",
+            "envited": "http://schema.org/Boolean",
+            "ascsMember": "@nest",
+            "vatID": "http://schema.org/vatID",
+            "address": "http://schema.org/PostalAddress"
         }
     }
   }
