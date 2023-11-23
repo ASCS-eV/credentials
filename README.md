@@ -5,6 +5,7 @@ A public repository containing examples for (verifiable) credentials and associa
 
 ## Resources
 
+* [Implementation Guide](https://www.w3.org/TR/vc-imp-guide/#creating-new-credential-types)
 * [w3c credentials v1](https://www.w3.org/2018/credentials/v1)
 * [w3c vc-json-schema](https://w3c.github.io/vc-json-schema/)
 * [json schema specification](https://json-schema.org/specification)
