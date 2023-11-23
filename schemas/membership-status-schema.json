@@ -3,7 +3,7 @@
   "AscsMemberCredential": "https://asc-s.de/#AscsMemberCredential",
 
   "AscsMember": {
-    "@id": "http://schema.org/Organization",
+    "@id": "https://asc-s.de/#AscsMember",
     "@context": {
       "@version": 1.1,
 
@@ -13,7 +13,7 @@
       "vatID": "http://schema.org/vatID"
     }
   },
-  
+
   "PostalAddress": {
     "@id": "http://schema.org/PostalAddress",
     "@context": {
