@@ -1,34 +1,27 @@
 {
-  "@context": {
-    "@version": 1.1,
-    "AscsMemberCredential": {
-      "@id": "https://asc-s.de/#AscsMemberCredential",
-      "@context": {
-        "@version": 1.1,
-        "id": "@id",
-        "type": "@type",
-        "AscsMember": {
-          "@id": "http://schema.org/Organization",
-          "@context": {
-            "@version": 1.1,
+  "@version": 1.1,
+  "AscsMemberCredential": "https://asc-s.de/#AscsMemberCredential",
 
-            "address": "http://schema.org/address",
-            "isAscsMember": "http://schema.org/Boolean",
-            "isEnvitedMember": "http://schema.org/Boolean",
-            "vatID": "http://schema.org/vatID"
-          }
-        },
-        "PostalAddress": {
-          "@id": "http://schema.org/PostalAddress",
-          "@context": {
-            "@version": 1.1,
+  "AscsMember": {
+    "@id": "http://schema.org/Organization",
+    "@context": {
+      "@version": 1.1,
 
-            "streetAddress": "http://schema.org/streetAddress",
-            "addressLocality": "http://schema.org/addressLocality",
-            "postalCode": "http://schema.org/postalCode"
-          }
-        }
-      }
+      "address": "http://schema.org/address",
+      "isAscsMember": "http://schema.org/Boolean",
+      "isEnvitedMember": "http://schema.org/Boolean",
+      "vatID": "http://schema.org/vatID"
+    }
+  },
+  
+  "PostalAddress": {
+    "@id": "http://schema.org/PostalAddress",
+    "@context": {
+      "@version": 1.1,
+
+      "streetAddress": "http://schema.org/streetAddress",
+      "addressLocality": "http://schema.org/addressLocality",
+      "postalCode": "http://schema.org/postalCode"
     }
   }
 }
