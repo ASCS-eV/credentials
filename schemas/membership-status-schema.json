@@ -2,31 +2,20 @@
   "@context": {
     "@version": 1.1,
     "AscsMemberCredential": {
-      "@id": "https://asc-s.de/#AscsMemberCredential",
-      "@context": {
-        "@version": 1.1,
-        "id": "@id",
-        "type": "@type",
-        "name": "http://schema.org/name",
-        "membershipStatus": "@nest",
-        "ascs": {
-          "@id": "http://schema.org/Boolean",
-          "@nest": "membershipStatus"
-        },
-        "envited": {
-          "@id": "http://schema.org/Boolean",
-          "@nest": "membershipStatus"
-        },
-        "ascsMember": "@nest",
-        "vatID": {
-          "@id": "http://schema.org/vatID",
-          "@nest": "ascsMember"
-        },
-        "address": {
-          "@id": "http://schema.org/PostalAddress",
-          "@nest": "ascsMember"
+        "@id": "https://asc-s.de/#AscsMemberCredential",
+        "@context": {
+            "@version": 1.1,
+            "@protected": true,
+            "id": "@id",
+            "type": "@type",
+            "name": "http://schema.org/name",
+            "membershipStatus": "@nest",
+            "ascs": "http://schema.org/Boolean",
+            "envited": "http://schema.org/Boolean",
+            "ascsMember": "@nest",
+            "vatID": "http://schema.org/vatID",
+            "address": "http://schema.org/PostalAddress"
         }
-      }
     }
   }
 }
