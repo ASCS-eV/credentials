@@ -2,6 +2,7 @@
 
 ## Credentials and Schemas
 A public repository containing examples for (verifiable) credentials and associated json schemas. The crendetials are used in the [Decentralized Digital Membership Management](https://ascs.digital).
+The DID of issuers and subjects and the UUIDs of the credentials have been aligned with the content of the following example [revocation registry](https://better-call.dev/ghostnet/KT1PZFXebyGvRFG8enbuVL9nrvTi4krYqeKt/storage.)
 
 ## Resources
 
