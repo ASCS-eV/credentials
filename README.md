@@ -1,8 +1,12 @@
 # Automotive Solution Center for Simulation e.V.
 
 ## Credentials and Schemas
-A public repository containing examples for (verifiable) credentials and associated json schemas. The crendetials are used in the [Decentralized Digital Membership Management](https://ascs.digital).
+A public repository containing examples for (verifiable) credentials and associated json-ld context definitions. The crendetials are used in the [Decentralized Digital Membership Management](https://ascs.digital).
 The DID of issuers and subjects and the UUIDs of the credentials have been aligned with the content of the following example [revocation registry](https://better-call.dev/ghostnet/KT1PZFXebyGvRFG8enbuVL9nrvTi4krYqeKt/storage.)
+
+## Examples
+There are two types of json-ld examples for the credentials. The member credentials and the user credential. The member credential is used to e.g. register a company with an application like e.g. [Simpulse](https://simpulse.de) for creating the company profile with minimal validated information. The user credential is used in ascs applications to set initial rights and roles.
+The examples are once given with an external context definition and also with the attributes defined directly in the credential. This is necessary as third-party libraries like [didkit](https://github.com/spruceid/didkit) does not allow external context loading due to security implications.
 
 ## Resources
 
