@@ -11,8 +11,12 @@ The examples are once given with an external context definition and also with th
 ## Manifests
 The manifest files are provided to render an identity card in a SSI wallet like e.g. [altme](https://altme.io) according to the identity foundation [wallet rendering specification](https://identity.foundation/wallet-rendering/).
 
-## Resources
+## Todos
+The context json files need to be hosted at https://schema.ascs.digital/AscsUserCredential/v1.
+All terms need to be hosted as .pdf files at https://media.ascs.digital/terms/.
 
+
+## Resources
 * [Implementation Guide](https://www.w3.org/TR/vc-imp-guide/#creating-new-credential-types)
 * [w3c credentials v1](https://www.w3.org/2018/credentials/v1)
 * [w3c vc-json-schema](https://w3c.github.io/vc-json-schema/)
