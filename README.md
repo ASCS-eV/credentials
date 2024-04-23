@@ -15,7 +15,6 @@ The manifest files are provided to render an identity card in a SSI wallet like 
 The context json files need to be hosted at https://schema.ascs.digital/AscsUserCredential/v1.
 All terms need to be hosted as .pdf files at https://media.ascs.digital/terms/.
 
-
 ## Resources
 * [Implementation Guide](https://www.w3.org/TR/vc-imp-guide/#creating-new-credential-types)
 * [w3c credentials v1](https://www.w3.org/2018/credentials/v1)
@@ -27,3 +26,6 @@ All terms need to be hosted as .pdf files at https://media.ascs.digital/terms/.
 * [version 4 uuid](https://www.uuidgenerator.net/version4)
 * [module: pkh-tezos](https://did.js.org/docs/api/modules/pkh_tezos/)
 * [did-pkh-method-draft](https://github.com/w3c-ccg/did-pkh/blob/main/did-pkh-method-draft.md)
+* [Multiassets](https://multiformats.io/)
+* [Content Identifier (CID)](https://docs.ipfs.tech/concepts/content-addressing/#what-is-a-cid)
+* [POC Content Identifier](https://github.com/GAIA-X4PLC-AAD/poc-ipfs-content-identifier)
