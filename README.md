@@ -1,7 +1,7 @@
-# Automotive Solution Center for Simulation e.V.
+# DEMIM Credentials
 
 ## Content
-A public repository containing examples for (verifiable) credentials, associated json-ld context definitions and json manifests. The crendetials are used in the [Decentralized Digital Membership Management](https://ascs.digital).
+A public repository containing examples for (verifiable) credentials, associated json-ld context definitions and json manifests. The crendetials are used in the [Decentralized Digital Membership Management](https://identity.ascs.digital).
 The DID of issuers and subjects and the UUIDs of the credentials have been aligned with the content of the following example [revocation registry](https://better-call.dev/ghostnet/KT1PZFXebyGvRFG8enbuVL9nrvTi4krYqeKt/storage.)
 
 ## Examples
